@@ -63,9 +63,6 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        URL jsnFileURL = Main.class.getResource("products and prices.json");
-        String jsnFileDirection = Main;
-        System.out.println(jsnFileDirection);
         automata = new Automata("./src/sample/resources/products and prices.json");
         automata.getMenufromJSON();
         getAutomataState();
