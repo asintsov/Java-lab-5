@@ -23,11 +23,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-//        URL u = Main.class.getClass().getResource("/sample/products and prices.json");
-//        String s = u.toString();
-//        System.out.println("1111");
-//        System.out.println("***"+s);
-
         launch(args);
     }
 
